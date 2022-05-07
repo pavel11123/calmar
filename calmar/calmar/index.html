@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="ru">
+	
+	<head>
+		<meta charset="UTF-8">
+		<meta name="format-detection" content="telephone=no">
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" type="text/css" href="main/css/style.css?2">
+		<link rel="stylesheet" type="text/css" href="main/css/null.css">
+		<title>Title</title>
+	</head>
+	
+	<body id="phone__menu-id-body">
+		
+		<div class="wrapper">
+			<header class="header">
+				<div class="container">
+					<div class="header__main">
+						<div class="logo__main"><img src="main/img/photo/callmar_logo.png" alt="search-icon"></div>
+						
+						<div class="header__autohorization">
+							
+							<div class="popup__main">
+								<button onclick="popup__login()" class="header__login autohorization__button">Вход</button>
+								
+								<div id="popup-id-login" class="popup">
+									<div class="popup__card">
+										
+										<div onclick="popup__closelogin()" class="popup__card-close"></div>
+										
+										<div class="popup__content">
+											<form action="send.php" method="post" class="form__popup">
+												<div class="popup__grid">
+													<input type="text" name="user_name" placeholder="Имя" class="popup__login popup__input">
+													<input type="email" name="user_email" placeholder="Email*" class="popup__email popup__input" required="">
+													<input type="text" name="user_name" placeholder="Тема" class="popup__subject popup__input"> 
+													<textarea name="user_text" placeholder="Сообщение*" class="popup__message popup__input" required=""></textarea>
+													<input type="submit" value="Отправить" class="popup__submit popup__input"> 
+												</div>
+											</form>
+										</div>
+										
+									</div>
+								</div>
+								
+							</div>
+							
+							
+							<div class="popup__main">
+								<button onclick="popup__registration()" class="header__registration autohorization__button">Регистрация</button>
+								
+								<div id="popup-id-registration" class="popup">
+									<div class="popup__card">
+										
+										<div onclick="popup__closeregistration()" class="popup__card-close"></div>
+										
+										<div class="popup__content">
+											<form action="send.php" method="post" class="form__popup">
+												<div class="popup__grid">
+													<input type="text" name="user_name" placeholder="Имя" class="popup__login popup__input">
+													<input type="email" name="user_email" placeholder="Email*" class="popup__email popup__input" required="">
+													<input type="text" name="user_name" placeholder="Тема" class="popup__subject popup__input"> 
+													<textarea name="user_text" placeholder="Сообщение*" class="popup__message popup__input" required=""></textarea>
+													<input type="submit" value="Отправить" class="popup__submit popup__input"> 
+												</div>
+											</form>
+										</div>
+										
+									</div>
+								</div>
+								
+							</div>
+							
+						</div>
+						
+						<div class="phone__menu">
+							<div onclick="menu__open()" class="phone__open">
+								<svg viewBox="0 0 35 35" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path d="M18.9583 26.25H29.1666M5.83325 8.75H29.1666H5.83325ZM5.83325 17.5H29.1666H5.83325Z"
+									stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+								</svg>
+							</div>
+							<nav id="phone__menu-id" class="phone__menu-nav">
+								<div onclick="menu__close()" class="phone__close">
+									<svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" fill="#000000">
+										<path d="M0 0h24v24H0V0z" fill="none" />
+										<path
+										d="M14.59 8L12 10.59 9.41 8 8 9.41 10.59 12 8 14.59 9.41 16 12 13.41 14.59 16 16 14.59 13.41 12 16 9.41 14.59 8zM12 2C6.47 2 2 6.47 2 12s4.47 10 10 10 10-4.47 10-10S17.53 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8z" />
+									</svg>
+								</div>
+								<ul class="phone__menu-ul">
+									<li class="phone__menu-li"><a href="index.html" class="phone__menu-a">Главная</a></li>
+									<li class="phone__menu-li"><a href="index.html" class="phone__menu-a">Главная</a></li>
+									<li class="phone__menu-li"><a href="index.html" class="phone__menu-a">Главная</a></li>
+									<li class="phone__menu-li"><a href="index.html" class="phone__menu-a">Главная</a></li>
+								</ul>
+							</nav>
+						</div>
+					</div>
+				</div>
+			</header>
+			<main class="main">
+				
+				<div class="main__back">
+					
+					<div class="container">
+						
+						<div class="start__page">
+							
+							<div class="start__main">
+								
+								<div class="start__photo">
+									<img src="main/img/photo/back.png" alt="search-icon">
+								</div>
+								
+								<section class="start__section">
+									<h1>Обратный звонок на сайт</h1>
+									<p>Получайте в 3 раза больше звонков сразу после установки виджета на Ваш сайт<br>Сервис окупает свой годовой тариф в первую же неделю</p>
+								</section>
+								
+							</div>
+							
+							<div class="start__btn">
+								<button class="btn__include">Подключить</button>
+							</div>
+							
+						</div>
+						
+					</div>
+					
+					<div class="buble__main-left">
+						<div class="buble"><img src="main/img/photo/buble.png" alt="search-icon"></div>
+						<div class="buble"><img src="main/img/photo/buble.png" alt="search-icon"></div>
+						<div class="buble"><img src="main/img/photo/buble.png" alt="search-icon"></div>
+					</div>
+					
+					<div class="buble__main-right">
+						<div class="buble"><img src="main/img/photo/buble.png" alt="search-icon"></div>
+						<div class="buble"><img src="main/img/photo/buble.png" alt="search-icon"></div>
+						<div class="buble"><img src="main/img/photo/buble.png" alt="search-icon"></div>
+					</div>
+					
+				</div>
+				
+				<div class="info__back">
+					
+					<div class="info__buble-top">
+						
+						<div class="buble"><img src="main/img/photo/buble.png" alt="search-icon"></div>
+						
+					</div>
+					
+					<div class="info__people-top">
+						
+						<div class="people"><img src="main/img/photo/people-1.png" alt="search-icon"></div>
+						
+					</div>
+					
+					<div class="info__buble-center">
+						
+						<div class="buble"><img src="main/img/photo/buble.png" alt="search-icon"></div>
+						
+					</div>
+					
+					<div class="info__buble-center-2">
+						
+						<div class="buble"><img src="main/img/photo/buble.png" alt="search-icon"></div>
+						
+					</div>
+					
+					<div class="info__buble-center-3">
+						
+						<div class="buble"><img src="main/img/photo/buble.png" alt="search-icon"></div>
+						
+					</div>
+					
+					<div class="container">
+						
+						<div class="info__card">
+							<div class="card__main card__block-1">
+								<div class="card__number"><span>01</span></div>
+								<div class="card__text">
+									<h3>Устанавливаете код на сайт</h3>
+									<p>Вы устанавливаете на свой сайт спечиальный HTML-код. Это займет 3 минуты или мы поможем вам</p>
+								</div>
+							</div>
+							<div class="card__main card__block-2">
+								<div class="card__number"><span>02</span></div>
+								<div class="card__text">
+									<h3>Устанавливаете код на сайт</h3>
+									<p>Вы устанавливаете на свой сайт спечиальный HTML-код. Это займет 3 минуты или мы поможем вам</p>
+								</div>
+							</div>	
+							<div class="card__main card__block-3">
+								<div class="card__number"><span>03</span></div>
+								<div class="card__text">
+									<h3>Устанавливаете код на сайт</h3>
+									<p>Вы устанавливаете на свой сайт спечиальный HTML-код. Это займет 3 минуты или мы поможем вам</p>
+								</div>
+							</div>	
+							<div class="card__main card__block-4">
+								<div class="card__number"><span>04</span></div>
+								<div class="card__text">
+									<h3>Устанавливаете код на сайт</h3>
+									<p>Вы устанавливаете на свой сайт спечиальный HTML-код. Это займет 3 минуты или мы поможем вам</p>
+								</div>
+							</div>	
+							
+							<div class="buble__info-right">
+								<div class="buble"><img src="main/img/photo/buble.png" alt="search-icon"></div>
+								<div class="buble"><img src="main/img/photo/buble.png" alt="search-icon"></div>
+								<div class="buble"><img src="main/img/photo/buble.png" alt="search-icon"></div>
+							</div>
+							
+							<div class="info__people-bottom">
+								
+								<div class="people"><img src="main/img/photo/people-2.png" alt="search-icon"></div>
+								
+							</div>
+							
+						</div>
+						
+					</div>
+					
+					<div class="video__main">
+						<div class="container">
+							<h2>Посмотрите видео<br>как работает виджет</h2>
+						</div>
+						
+						<div class="video">
+							<div class="video__play"><svg width="252" height="252" viewBox="0 0 252 252" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<path d="M192.436 121.163C195.786 123.084 195.787 127.916 192.436 129.837L96.4873 184.859C93.154 186.771 89 184.364 89 180.522L89 70.4782C89 66.6357 93.154 64.2292 96.4873 66.1407L192.436 121.163Z" fill="#ffffff"/>
+								<circle cx="126" cy="126" r="121" stroke="#ffffff" stroke-width="10"/>
+							</svg>
+							</div>
+						</div>
+						
+					</div>
+					
+					<div class="send__main">
+						
+						<div class="send__ship">
+							
+							<div class="ship"><img src="main/img/photo/ship.png" alt="search-icon"></div>
+							
+						</div>
+						
+						<div class="send__fish">
+							
+							<div class="fish"><img src="main/img/photo/fish.png" alt="search-icon"></div>
+							
+						</div>
+						
+						<div class="container">
+							
+							<div class="send__grid">
+								
+								<div class="send__card">
+									<h2>Бесплатно <br>0 руб.</h2>
+									<p>Тестовая версия на 15 дней и 20 руб. на балансе для проверки качества связи.</p>
+									
+									<button class="send__btn">Попробовать</button>
+									
+								</div>
+								
+								<div class="send__card">
+									<h2>Бесплатно <br>0 руб.</h2>
+									<p>Тестовая версия на 15 дней и 20 руб. на балансе для проверки качества связи.</p>
+									
+									<button class="send__btn">Попробовать</button>
+									
+								</div>
+								
+							</div>
+							
+						</div>
+						
+						<div class="send__back"></div>
+						
+					</div>
+					
+				</div>
+				
+			</main>
+			
+			<footer class="footer">
+				<div class="container">
+					<div class="footer__main"></div>
+				</div>
+			</footer>
+			
+		</div>
+		
+		<script type="text/javascript" src="main/js/script.js"></script>
+		
+	</body>
+</html>
